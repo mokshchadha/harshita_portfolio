@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import Image from "next/image"
 
 export default function PortfolioPage() {
   return (
@@ -36,7 +37,7 @@ export default function PortfolioPage() {
                     {/* Portfolio Items */}
                     {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((item) => (
                       <div key={item} className="group relative overflow-hidden rounded-lg shadow-lg">
-                        <img
+                        <Image
                           src={`/placeholder.svg?height=300&width=400&text=Project ${item}`}
                           alt={`Portfolio item ${item}`}
                           className="h-64 w-full object-cover transition-all group-hover:scale-105"
@@ -54,7 +55,7 @@ export default function PortfolioPage() {
                     {/* Student Projects */}
                     {[1, 2, 3, 4, 5, 6].map((item) => (
                       <div key={item} className="group relative overflow-hidden rounded-lg shadow-lg">
-                        <img
+                        <Image
                           src={`/placeholder.svg?height=300&width=400&text=Student Project ${item}`}
                           alt={`Student project ${item}`}
                           className="h-64 w-full object-cover transition-all group-hover:scale-105"
@@ -72,7 +73,7 @@ export default function PortfolioPage() {
                     {/* Community Projects */}
                     {[1, 2, 3].map((item) => (
                       <div key={item} className="group relative overflow-hidden rounded-lg shadow-lg">
-                        <img
+                        <Image
                           src={`/placeholder.svg?height=300&width=400&text=Community Project ${item}`}
                           alt={`Community project ${item}`}
                           className="h-64 w-full object-cover transition-all group-hover:scale-105"
@@ -90,7 +91,7 @@ export default function PortfolioPage() {
                     {/* Personal Work */}
                     {[1, 2, 3, 4].map((item) => (
                       <div key={item} className="group relative overflow-hidden rounded-lg shadow-lg">
-                        <img
+                        <Image
                           src={`/placeholder.svg?height=300&width=400&text=Personal Work ${item}`}
                           alt={`Personal artwork ${item}`}
                           className="h-64 w-full object-cover transition-all group-hover:scale-105"

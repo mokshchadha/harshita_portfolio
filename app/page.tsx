@@ -4,6 +4,7 @@ import { ArrowRight, Mail, MapPin, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { FeaturedWork } from "@/components/featured-work"
 import { Testimonials } from "@/components/testimonials"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
             </div>
             <div className="flex items-center justify-center">
               <div className="relative h-[450px] w-[350px] overflow-hidden rounded-lg bg-muted">
-                <img
+                <Image
                   src="/placeholder.svg?height=450&width=350"
                   alt="Harshita teaching art"
                   className="object-cover w-full h-full"
@@ -52,7 +53,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">About Me</h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I'm an art educator with over 8 years of experience teaching various art forms to students of all ages.
+                I&apos;m an art educator with over 8 years of experience teaching various art forms to students of all ages.
               </p>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12">
@@ -80,7 +81,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="mx-auto aspect-video overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last">
-                <img
+                <Image
                   src="/placeholder.svg?height=400&width=600"
                   alt="Art classroom setting"
                   className="object-cover w-full h-full"

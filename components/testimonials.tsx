@@ -16,8 +16,8 @@ export function Testimonials() {
               <div>
                 <Quote className="h-8 w-8 text-primary/50 mb-2" />
                 <p className="text-lg italic">
-                  "Harshita's teaching style is both inspiring and practical. She helped me discover my own artistic
-                  voice while providing solid technical guidance. Her workshops are the highlight of my week!"
+                  &quot;Harshita&apos;s teaching style is both inspiring and practical. She helped me discover my own artistic
+                  voice while providing solid technical guidance. Her workshops are the highlight of my week!&quot;
                 </p>
               </div>
               <div>
@@ -29,9 +29,9 @@ export function Testimonials() {
               <div>
                 <Quote className="h-8 w-8 text-primary/50 mb-2" />
                 <p className="text-lg italic">
-                  "As a school principal, I've seen firsthand how Harshita's art program has transformed our students'
+                  &quot;As a school principal, I&apos;ve seen firsthand how Harshita&apos;s art program has transformed our students&apos;
                   engagement and creativity. Her curriculum is thoughtful and her connection with students is
-                  remarkable."
+                  remarkable.&quot;
                 </p>
               </div>
               <div>
@@ -43,8 +43,8 @@ export function Testimonials() {
               <div>
                 <Quote className="h-8 w-8 text-primary/50 mb-2" />
                 <p className="text-lg italic">
-                  "My daughter has blossomed under Harshita's guidance. Not only has her artistic skill improved, but
-                  her confidence and ability to express herself have grown tremendously."
+                  &quot;My daughter has blossomed under Harshita&apos;s guidance. Not only has her artistic skill improved, but
+                  her confidence and ability to express herself have grown tremendously.&quot;
                 </p>
               </div>
               <div>
@@ -56,8 +56,8 @@ export function Testimonials() {
               <div>
                 <Quote className="h-8 w-8 text-primary/50 mb-2" />
                 <p className="text-lg italic">
-                  "The community mural project that Harshita led was transformative for our neighborhood. She has a gift
-                  for bringing people together through art and making everyone feel like they can contribute."
+                  &quot;The community mural project that Harshita led was transformative for our neighborhood. She has a gift
+                  for bringing people together through art and making everyone feel like they can contribute.&quot;
                 </p>
               </div>
               <div>

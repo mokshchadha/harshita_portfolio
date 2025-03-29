@@ -200,7 +200,7 @@ export default function ServicesPage() {
                 <div className="space-y-2">
                   <h2 className="text-2xl font-bold">Custom Services</h2>
                   <p className="text-muted-foreground">
-                    Don't see what you're looking for? I offer custom art education services tailored to your specific
+                    Don&apos;t see what you&apos;re looking for? I offer custom art education services tailored to your specific
                     needs.
                   </p>
                 </div>

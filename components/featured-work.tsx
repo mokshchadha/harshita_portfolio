@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export function FeaturedWork() {
   return (
@@ -17,7 +18,7 @@ export function FeaturedWork() {
           <div className="mx-auto grid max-w-5xl gap-6 py-12 md:grid-cols-2 lg:grid-cols-3">
             <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
               <Link href="/portfolio/student-exhibition">
-                <img
+                <Image
                   src="/placeholder.svg?height=400&width=300"
                   alt="Student Exhibition"
                   className="h-[300px] w-full object-cover transition-all group-hover:scale-105"
@@ -30,7 +31,7 @@ export function FeaturedWork() {
             </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
               <Link href="/portfolio/community-mural">
-                <img
+                <Image
                   src="/placeholder.svg?height=400&width=300"
                   alt="Community Mural Project"
                   className="h-[300px] w-full object-cover transition-all group-hover:scale-105"
@@ -43,7 +44,7 @@ export function FeaturedWork() {
             </div>
             <div className="group relative overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
               <Link href="/portfolio/workshops">
-                <img
+                <Image
                   src="/placeholder.svg?height=400&width=300"
                   alt="Art Workshops"
                   className="h-[300px] w-full object-cover transition-all group-hover:scale-105"

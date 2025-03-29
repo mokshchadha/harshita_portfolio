@@ -2,6 +2,7 @@ import Link from "next/link"
 import { ArrowLeft } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function AboutPage() {
   return (
@@ -28,10 +29,10 @@ export default function AboutPage() {
                   <div className="space-y-2">
                     <h2 className="text-2xl font-bold">My Story</h2>
                     <p className="text-muted-foreground">
-                      I've been passionate about art since childhood. After completing my Master's in Fine Arts and
+                      I&apos;ve been passionate about art since childhood. After completing my Master&apos;s in Fine Arts and
                       Education, I dedicated my career to helping others discover their creative potential. With over 8
                       years of teaching experience across various settings—from public schools to community centers and
-                      private studios—I've developed a teaching approach that balances technical skill-building with
+                      private studios—I&apos;ve developed a teaching approach that balances technical skill-building with
                       creative exploration.
                     </p>
                     <p className="text-muted-foreground mt-4">
@@ -50,7 +51,7 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <div className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full">
-                  <img
+                  <Image
                     src="/placeholder.svg?height=500&width=500"
                     alt="Harshita in her studio"
                     className="object-cover w-full h-full"
@@ -62,7 +63,7 @@ export default function AboutPage() {
                 <div className="space-y-2">
                   <h2 className="text-2xl font-bold">Teaching Philosophy</h2>
                   <p className="text-muted-foreground">
-                    I believe that art education is about more than just teaching techniques—it's about nurturing the
+                    I believe that art education is about more than just teaching techniques—it&apos;s about nurturing the
                     whole person. My teaching philosophy centers around these core principles:
                   </p>
                 </div>
